@@ -1,0 +1,19 @@
+.top-right-title-1 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.top-right-title-2 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
