@@ -2,7 +2,7 @@ import './Tabbar.css';
 
 function Tabbar() {
     return (
-      <div className="Tabbar">
+      <nav className="Tabbar">
         <div className="Tab" id="tab1">
             tab1
         </div>
@@ -15,7 +15,7 @@ function Tabbar() {
         <div className="Tab" id="tab4">
             tab4
         </div>
-      </div>
+      </nav>
     );
   }
 
