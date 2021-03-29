@@ -1,0 +1,15 @@
+.Tabbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.Tab{
+    font-size: 2rem;
+    border: solid black 6px;
+    padding: 1vh 2vw 1vh 2vw;
+    border-radius: 50px;
+    background: blanchedalmond;
+}

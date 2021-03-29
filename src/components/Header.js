@@ -1,15 +1,14 @@
 import './Header.css';
+import LoginButton from './LoginButton';
 
 function Header() {
     return (
       <div className="Header">
         <h1 class="title-wrapper">
-          <div class="title" id="title1">
-          Something.to
+          <div class="title">
+          Logo
           </div>
-          <div class="title" id="title2">
-          Listen.to
-          </div>
+          <LoginButton />
         </h1>
       </div>
     );

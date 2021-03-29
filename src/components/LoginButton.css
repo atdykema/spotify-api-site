@@ -1,0 +1,11 @@
+.LoginButtonWrapper{
+    background-color:bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin-top: 3vh;
+    padding: 1vw 5vw 1vw 5vw;
+    border: solid black 4px;
+    border-radius: 50px;
+}

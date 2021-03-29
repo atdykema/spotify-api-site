@@ -1,0 +1,12 @@
+.Col1Body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(179, 221, 255);
+    border: black solid;
+    border-width: 6px;
+    border-radius: 50px;
+    padding: 2vh 8vw 2vh 8vw;
+    font-size: 2rem;
+}

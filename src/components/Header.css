@@ -1,13 +1,7 @@
 .title-wrapper {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 4vw;
+    justify-content: space-around;
 }
 
 .Header{
@@ -16,39 +10,16 @@
     justify-content: center;
     align-self: center;
     background-color: rgb(179, 221, 255);
-    padding-left: 10%;
-    padding-right: 10%;
     border: black solid;
     border-width: 6px;
     border-radius: 50px;
-    
+    padding: 2vw;
 }
 
-#title1{
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background: linear-gradient(#ffc5c5, #ffffff);
-    border-top: black solid 2px;
-    border-left: black solid 4px;
-    border-right: black solid 4px;
-    
-    margin-left: -15%;
-    margin-right: -15%;
-
+.title{
+    background-color:blanchedalmond;
     display: flex;
     justify-content: center;
-}
-
-#title2{
-    background: linear-gradient(to top, rgb(226, 197, 255), #ffffff);
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    display: flex;
-    justify-content: center;
-    border-bottom: black solid 2px;
-    border-left: black solid 4px;
-    border-right: black solid 4px;
-    margin-left: -15%;
-    margin-right: -15%;
-    
+    align-items: center;
+    padding: 5vh 0 5vh 0;
 }

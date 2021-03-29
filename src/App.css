@@ -1,16 +1,33 @@
-.App{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
+  .App{
+    display: grid;
+    grid-template-columns: 30% 70%;
     background-color: khaki;
     border: solid;
     border-radius: 50px;
     border-width: 10px;
     border-color: black;
-    box-shadow: 72px -30px #BCFFF8;
+    box-shadow: 4vw -2vh #cdfcf7;
     margin-top: 5vh;
     margin-left: 3vw;
-    margin-right: 10vw;
-    padding-top: 3vh;
+    margin-right: 6vw;
+    padding: 2vw;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 > div{
+    margin-bottom: 2vw;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.column2 > div{
+    margin-bottom: 2vw;
 }

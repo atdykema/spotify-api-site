@@ -1,0 +1,26 @@
+.Col2Body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(179, 221, 255);
+    border: black solid;
+    border-width: 6px;
+    border-radius: 50px;
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 2rem;   
+}
+
+.Col2Body > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(179, 221, 255);
+    border: black solid;
+    border-width: 6px;
+    border-radius: 50px;
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 2rem; 
+}
+

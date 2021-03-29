@@ -1,0 +1,12 @@
+.Toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #C1FFBC;
+    border: solid black;
+    border-radius: 50px;
+    border-width: 6px;
+    font-size: 3rem;
+
+}
